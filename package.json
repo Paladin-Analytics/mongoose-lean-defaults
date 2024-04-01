@@ -1,17 +1,18 @@
 {
-  "name": "mongoose-lean-defaults",
-  "version": "2.2.1",
+  "name": "@paladin-analytics/mongoose-lean-defaults",
+  "version": "2.3.0",
   "description": "Attach defaults to the results of mongoose queries when using `.lean()`",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "jest",
     "dev": "jest --watchAll",
-    "build": "tsc --project tsconfig.build.json"
+    "build": "tsc --project tsconfig.build.json",
+    "release": "standard-version && git push --follow-tags && npm publish --registry=https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/douglasgabr/mongoose-lean-defaults.git"
+    "url": "git+https://github.com/Paladin-Analytics/mongoose-lean-defaults.git"
   },
   "keywords": [
     "mongoose",
@@ -22,11 +23,12 @@
   "author": "Douglas Francisco Gabriel <douglasgabriel99@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/douglasgabr/mongoose-lean-defaults/issues"
+    "url": "https://github.com/Paladin-Analytics/mongoose-lean-defaults/issues"
   },
-  "homepage": "https://github.com/douglasgabr/mongoose-lean-defaults#readme",
+  "homepage": "https://github.com/Paladin-Analytics/mongoose-lean-defaults#readme",
   "dependencies": {
-    "mpath": "^0.9.0"
+    "mpath": "^0.9.0",
+    "standard-version": "^9.5.0"
   },
   "peerDependencies": {
     "mongoose": ">=5.11.0"
