@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.1](https://github.com/Paladin-Analytics/mongoose-lean-defaults/compare/v2.3.0...v2.3.1) (2024-04-01)
+
 ## 2.3.0 (2024-04-01)
 
 
