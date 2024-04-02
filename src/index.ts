@@ -7,7 +7,7 @@ export interface MongooseLeanDefaultsOptions {
 }
 
 export default function mongooseLeanDefaults(
-  schema: Schema<any, any, any, any>,
+  schema: Schema<any>,
   options?: MongooseLeanDefaultsOptions,
 ): void {
   const fn = attachDefaultsMiddleware(schema, options);

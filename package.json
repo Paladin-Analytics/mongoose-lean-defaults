@@ -2,8 +2,8 @@
   "name": "@paladin-analytics/mongoose-lean-defaults",
   "version": "2.3.1",
   "description": "Attach defaults to the results of mongoose queries when using `.lean()`",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "dev": "jest --watchAll",
@@ -31,7 +31,7 @@
     "standard-version": "^9.5.0"
   },
   "peerDependencies": {
-    "mongoose": ">=5.11.0"
+    "mongoose": ">=5.10.3"
   },
   "devDependencies": {
     "@swc/core": "^1.2.196",
