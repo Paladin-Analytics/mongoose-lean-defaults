@@ -1,5 +1,5 @@
 {
-  "name": "@paladin-analytics/mongoose-lean-defaults",
+  "name": "@surge-global-engineering/mongoose-lean-defaults",
   "version": "2.3.2",
   "description": "Attach defaults to the results of mongoose queries when using `.lean()`",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Paladin-Analytics/mongoose-lean-defaults.git"
+    "url": "git+https://github.com/SURGE-GLOBAL-ENGINEERING/mongoose-lean-defaults.git"
   },
   "keywords": [
     "mongoose",
@@ -23,9 +23,9 @@
   "author": "Douglas Francisco Gabriel <douglasgabriel99@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Paladin-Analytics/mongoose-lean-defaults/issues"
+    "url": "https://github.com/SURGE-GLOBAL-ENGINEERING/mongoose-lean-defaults/issues"
   },
-  "homepage": "https://github.com/Paladin-Analytics/mongoose-lean-defaults#readme",
+  "homepage": "https://github.com/SURGE-GLOBAL-ENGINEERING/mongoose-lean-defaults#readme",
   "dependencies": {
     "mpath": "^0.9.0",
     "standard-version": "^9.5.0"
